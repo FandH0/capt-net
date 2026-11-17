@@ -1,0 +1,41 @@
+# ---------- PyCharm / JetBrains ----------
+# Папку настроек IDE не храним: там пути к интерпретатору и
+# личные настройки, которые у каждого участника свои
+.idea/
+*.iml
+out/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Окружение (uv) ----------
+.venv/
+.env
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Данные, кеш, модели ----------
+data/
+checkpoints/
+runs/                 # логи TensorBoard
+*.pt
+*.pth
+*.wav
+*.flac
+
+# ---------- Gradio ----------
+.gradio/
+flagged/
+
+# ---------- Системные файлы ----------
+.DS_Store
+Thumbs.db
+desktop.ini
